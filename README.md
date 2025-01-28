@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @Pyrotheum1702
+- 👀 I’m interested in Big A$$
+- 🌱 I’m currently learning How to not lose money
+- 💞️ I’m looking to collaborate on choking my throat
+- 😄 Pronouns: Javascript/Typescript
+- ⚡ Fun fact: Im single
