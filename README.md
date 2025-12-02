@@ -1,2 +1,1 @@
-- 👋 Hi, I’m @Pyrotheum1702
-- Im a Software Engineer.
+- I'm a Software Engineer.
