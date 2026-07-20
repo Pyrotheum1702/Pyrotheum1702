@@ -106,6 +106,5 @@ I'm documenting this journey publicly in [learning-ai-engineering](https://githu
 <div align="center">
 
 🌐 **[pyrotheum1702.com](https://pyrotheum1702.com/)** — my portfolio, with PyroBot on board if you'd rather ask it about me
-📫 **pyrotheum1702@gmail.com**
 
 </div>
