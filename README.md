@@ -101,15 +101,6 @@ I'm documenting this journey publicly in [learning-ai-engineering](https://githu
 - Working through a structured AI-engineering roadmap: agents, evals, and LLM-app reliability
 - Open to interesting problems in **game backends, real-time systems, and applied AI**
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Pyrotheum1702&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pyrotheum1702&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" height="165">
-
-</div>
-
 ---
 
 <div align="center">
