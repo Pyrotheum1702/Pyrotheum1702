@@ -15,11 +15,16 @@
 
 ## 🛠 Stack
 
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
 **Game clients**
 
 ![Cocos Creator](https://img.shields.io/badge/Cocos_Creator-55C2E1?style=flat-square&logo=cocos&logoColor=white)
 ![Phaser](https://img.shields.io/badge/Phaser_3-8E44AD?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![GLSL](https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white)
 ![Spine](https://img.shields.io/badge/Spine_2D-FF4000?style=flat-square)
 
@@ -44,10 +49,11 @@
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Fireworks AI](https://img.shields.io/badge/Fireworks_AI-5019C7?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-6C3EB8?style=flat-square)
 ![Tool Calling](https://img.shields.io/badge/Tool_Calling-0A7E8C?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-F97316?style=flat-square)
-![Evals & Guardrails](https://img.shields.io/badge/Evals_%26_Guardrails-2D6A4F?style=flat-square)
+![Guardrails](https://img.shields.io/badge/Guardrails-2D6A4F?style=flat-square)
 ![Hugging Face](https://img.shields.io/badge/Transformers.js-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 **Web**
