@@ -13,38 +13,6 @@
 
 ---
 
-## 🎰 Building now — Archade
-
-A real-money instant-win game suite on **Arch Network** (Bitcoin L2). Three games — **Crazy Wheel** (real-time multiplayer betting wheel), **Deal or No Deal**, **Scratch Cards** — share one wallet and custody layer. The balance is real on-chain aUSD/aBTC, not points. I own all three tiers:
-
-- **Clients** — Cocos Creator 2.4.13, plus a full web rewrite in **Vite + React 18 + TypeScript (strict) + Phaser 3**, hosted in a Windows XP–themed desktop shell: draggable/resizable windows, taskbar, XP dialogs.
-- **Server** — Express REST + **Colyseus** realtime, MongoDB with Redis as a write-behind cache. Config is zod-validated at boot so a bad secret fails the process instead of failing later inside a money path.
-- **Money** — custody wallet, one-click wallet-signed deposits (**BIP-322** via UniSat / Xverse / OKX), Telegram-approved withdrawals, an on-chain portfolio (BTC / Runes / Ordinals / Arch tokens). Amounts are integer base units end to end — converted to whole tokens only for display, at the edge.
-- **Chain** — proved deposit and withdrawal against mainnet over **100 legs with zero drift** before a line of it touched the game. Along the way I reverse-engineered Arch's associated-token-address derivation — the SDK's helper derives the *wrong* address, because the chain omits Solana's `ProgramDerivedAddress` marker — and byte-verified my replacement against a live on-chain ATA.
-
-## 🤖 AI engineering
-
-Documented publicly in **[learning-ai-engineering](https://github.com/Pyrotheum1702/learning-ai-engineering)** — code hand-written, AI used as a tutor.
-
-- **[PyroBot](https://github.com/Pyrotheum1702/pyro-chat-bot)** — an agentic-RAG assistant embedded on my portfolio. FastAPI + LangChain + Chroma + Fireworks, with a hand-written streaming tool-calling loop (SSE), four production tools, prompt-injection defenses, SSRF/path-traversal guards, rate limiting, and a daily LLM cost-cap kill switch. Dockerized and deployed.
-- **Play Planning OS** *(client engagement)* — an agentic planning layer over a fifteen-year, ~4,400-document curriculum archive. It retrieves genuine precedent from the client's *own* archive, drafts in their measured house voice, **hard-blocks** any draft failing one of 9 safety rules, requires a human to approve — with a permanently recorded written reason to override a hard rule — and renders to 7 formats across 3 audiences. Anthropic + Voyage + Fireworks; ingestion idempotent by content hash, so it resumes for free.
-- **Pyro AI Agent** — a personal discipline agent living on my VPS. Tracks GitHub and LeetCode activity plus self-reported habits, nudges over Telegram, and *infers sleep from silence* — trusting silence only while it stays uninterrupted, since any late-night activity is evidence you were awake. Inferred records are flagged so the reasoning stays auditable.
-- **RAG in production games** — an in-game AI guide on a Qdrant retrieval pipeline, with a provider-agnostic LLM client and function calling.
-
-## 🎮 Track record
-
-7+ shipped titles — poker, slots, spin-wheel, scratch cards, idle/tycoon builders, mining clickers — most of them live as Telegram Mini Apps, owning client and backend both:
-
-- **Real-time multiplayer Texas Hold'em** — full poker engine with hand evaluation, ELO ranking tiers, a Spine-animated dealer, and bot AI running Monte-Carlo equity estimation, pot-odds analysis, and per-opponent behavioral modeling.
-- **Authoritative game servers** on Colyseus + WebSockets, scaled horizontally with Redis presence/drivers, serving multiple concurrent rooms per process — live in production behind nginx with SSL, uptime monitoring, and Telegram ops alerts.
-- **Casino & economy math done properly** — cryptographically seeded weighted RNG (`crypto.randomInt`, never `Math.random`), payout distribution, staking economies, `decimal.js` money handling.
-- **Blockchain across three ecosystems** — **Bitcoin** (BIP32/39/86/322 HD derivation for per-user deposit addresses, withdrawal signing, Ordinals/Runes), **TON** (payments, wallet connect, Telegram Stars), **EVM** (Solidity/Hardhat, including commit-reveal and **ZK-SNARK (Circom)** versions of an on-chain game).
-- **Hand-written GLSL shaders**, Spine skeletal animation, procedural effects, and a reusable responsive UI framework shared across every client.
-
-## 📓 How I work
-
-Substantial work lands in a plain-Markdown documentation vault — architecture notes, decision records, runbooks, and a dated worklog recording what changed and the **verified** outcome, including what was left undone. Docs ship in the same commit as the code: a stale README is a bug.
-
 ## 🛠 Stack
 
 **Game clients**
