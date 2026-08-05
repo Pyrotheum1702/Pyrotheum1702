@@ -22,18 +22,6 @@ A real-money instant-win game suite on **Arch Network** (Bitcoin L2). Three game
 - **Money** — custody wallet, one-click wallet-signed deposits (**BIP-322** via UniSat / Xverse / OKX), Telegram-approved withdrawals, an on-chain portfolio (BTC / Runes / Ordinals / Arch tokens). Amounts are integer base units end to end — converted to whole tokens only for display, at the edge.
 - **Chain** — proved deposit and withdrawal against mainnet over **100 legs with zero drift** before a line of it touched the game. Along the way I reverse-engineered Arch's associated-token-address derivation — the SDK's helper derives the *wrong* address, because the chain omits Solana's `ProgramDerivedAddress` marker — and byte-verified my replacement against a live on-chain ATA.
 
-## 🔒 Security & correctness on money paths
-
-Two full line-by-line audits of that custody stack, written up as runbooks and then remediated:
-
-- **~10k lines read → 5 critical, 6 high, 18 medium/low.** Game rooms trusting a client-supplied `uuid` (act as any account), replayable prize claims, a re-rollable final prize, an unauthenticated localhost balance setter, and a per-process mutex guarding balances that *two* processes mutate.
-- **Every finding fixed, each verified by reverting the fix and confirming the new test fails.** Suite grew 92 → 170+.
-- The suite was **92/92 green while all of it was live** — it covered the REST money paths and never touched the game-room handlers.
-- Three follow-up passes that drove real flows instead of trusting the green suite each found something the audit had missed. Two worth naming: the **house edge never applied** (a flag stripped for the wire read back as `undefined`, so the game ran at ~99.9% RTP instead of the intended ~98.8%), and a **remote DoS** — valid gzip wrapping invalid JSON threw from inside a zlib callback, which an *earlier hardening fix in the same audit* had promoted from a swallowed error into a process exit.
-- Plus host hardening: UFW, fail2ban, loopback-only binding behind nginx, secret file permissions, OS patching.
-
-Two things I carry forward: a green suite only proves the paths you wrote tests for, and hardening one layer can arm a weakness in another.
-
 ## 🤖 AI engineering
 
 Documented publicly in **[learning-ai-engineering](https://github.com/Pyrotheum1702/learning-ai-engineering)** — code hand-written, AI used as a tutor.
