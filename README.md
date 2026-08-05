@@ -4,7 +4,7 @@
 
 **Game Developer · Hà Nội, Việt Nam**
 
-*I build real-time multiplayer games end to end — the client, the authoritative server,<br>the money math, and the infrastructure they run on.*
+*I build real-time multiplayer games and the AI systems around them — the client,<br>the authoritative server, the money math, and the infrastructure it all runs on.*
 
 <a href="https://pyrotheum1702.com/"><img src="https://img.shields.io/badge/Portfolio-pyrotheum1702.com-FF6B35?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio"></a>
 <a href="mailto:pyrotheum1702@gmail.com"><img src="https://img.shields.io/badge/Email-pyrotheum1702%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
