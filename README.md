@@ -2,9 +2,9 @@
 
 # Hi, I'm Nguyễn Quang Được (Pyro) 👋
 
-**Full-stack game developer · Hà Nội, Việt Nam**
+**Game Developer · Hà Nội, Việt Nam**
 
-*I build real-time multiplayer games end to end — the client, the authoritative server, the money<br>math, and the infrastructure they run on. Right now the currency is real on-chain Bitcoin-L2<br>tokens, which makes correctness a security problem. Increasingly, so are the AI systems around it.*
+*I build real-time multiplayer games end to end — the client, the authoritative server,<br>the money math, and the infrastructure they run on.*
 
 <a href="https://pyrotheum1702.com/"><img src="https://img.shields.io/badge/Portfolio-pyrotheum1702.com-FF6B35?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio"></a>
 <a href="mailto:pyrotheum1702@gmail.com"><img src="https://img.shields.io/badge/Email-pyrotheum1702%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
@@ -79,17 +79,3 @@
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS_S3-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-
-## 📍 Currently
-
-- Taking **Archade** to production on Arch Network — a real-money cutover, so it moves at the pace the audit trail justifies
-- Working through a structured AI-engineering roadmap, currently on **evals, guardrails, and LLM-app reliability**
-- Open to interesting problems in **game backends, real-time systems, and applied AI**
-
----
-
-<div align="center">
-
-🌐 **[pyrotheum1702.com](https://pyrotheum1702.com/)** — my portfolio, with PyroBot on board if you'd rather ask it about me
-
-</div>
