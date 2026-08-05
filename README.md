@@ -28,7 +28,6 @@
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![Phaser](https://img.shields.io/badge/Phaser_3-8E44AD?style=flat-square)
 ![GLSL](https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white)
-![Spine](https://img.shields.io/badge/Spine_2D-FF4000?style=flat-square)
 
 **Servers & realtime**
 
